@@ -28,6 +28,9 @@ struct ContentView: View {
                 Text("iOS & Ionic Developer")
                     .foregroundColor(.white)
                     .font(.system(size: 25))
+                Divider()
+                    InfoView(text: "+1 501 529 2025", imageName: "phone.fill")
+                    InfoView(text: "Shawn.Williams@agfc.ar.gov", imageName: "envelope.fill")
             }
         }
     }
@@ -38,3 +41,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

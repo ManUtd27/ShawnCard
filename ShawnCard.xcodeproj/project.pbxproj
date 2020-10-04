@@ -14,6 +14,7 @@
 		AD8BACCE252A832F00FE1A7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8BACCD252A832F00FE1A7C /* Preview Assets.xcassets */; };
 		AD8BACD1252A832F00FE1A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8BACCF252A832F00FE1A7C /* LaunchScreen.storyboard */; };
 		AD8BACDB252A87DE00FE1A7C /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD8BACDA252A87DE00FE1A7C /* Pacifico-Regular.ttf */; };
+		AD8BACDE252A92C300FE1A7C /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8BACDD252A92C300FE1A7C /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AD8BACD0252A832F00FE1A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD8BACD2252A832F00FE1A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD8BACDA252A87DE00FE1A7C /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		AD8BACDD252A92C300FE1A7C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				AD8BACCF252A832F00FE1A7C /* LaunchScreen.storyboard */,
 				AD8BACD2252A832F00FE1A7C /* Info.plist */,
 				AD8BACCC252A832F00FE1A7C /* Preview Content */,
+				AD8BACDD252A92C300FE1A7C /* InfoView.swift */,
 			);
 			path = ShawnCard;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8BACDE252A92C300FE1A7C /* InfoView.swift in Sources */,
 				AD8BACC5252A832E00FE1A7C /* AppDelegate.swift in Sources */,
 				AD8BACC7252A832E00FE1A7C /* SceneDelegate.swift in Sources */,
 				AD8BACC9252A832E00FE1A7C /* ContentView.swift in Sources */,
